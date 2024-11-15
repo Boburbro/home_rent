@@ -28,8 +28,18 @@ class CustomSearch extends StatelessWidget {
           ),
         ),
         IconButton(
+          style: IconButton.styleFrom(
+            padding: const EdgeInsets.symmetric(horizontal: 8),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(10),
+            ),
+            backgroundColor: AppColors.c0A8ED9,
+          ),
           onPressed: () {},
-          icon: const Icon(Icons.tune_rounded),
+          icon: const Icon(
+            Icons.tune_rounded,
+            color: Colors.white,
+          ),
         )
       ],
     );
